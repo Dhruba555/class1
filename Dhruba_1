@@ -1,0 +1,60 @@
+<?php
+                    # String,Reverse String, Length of string
+/*
+$first = "Rohan";
+$last = "Malhotra";
+$full = $first." ".$last;
+
+echo $first," ",$last,"<br>";
+echo $first." ".$last."<br>";
+
+echo strrev($full)."<br>";       # Reverse string
+
+echo strlen($full);              # Length of string
+*/
+
+                        # Operator in php
+/*
+$num1 =100;
+$num2 = 50;
+
+echo $num1+$num2."<br>";
+echo $num1-$num2."<br>";
+echo $num1*$num2."<br>";
+echo $num1/$num2."<br>";
+echo $num1**$num2."<br>";
+*/
+
+                        # Comparison Operator
+/*
+$num1 =100;
+$num2=50;
+
+echo $num1>$num2,"<br>";
+echo $num2<$num1,"<br>";
+echo $num1>=$num2,"<br>";
+echo $num2<=$num1,"<br>";
+echo $num1==$num2,"<br>";
+echo $num1!=$num2,"<br>";
+*/
+
+                        # Ceil,Round,Floor,Absolute value
+/*
+$num1= 98.4;
+$num2 = -48;
+
+echo round($num1)."<br>";
+echo ceil($num1)."<br>";
+echo floor($num1)."<br>";
+echo abs($num2)."<br>";
+*/
+
+                        # Random Value
+$randomv= rand(2,8);
+$randomva= rand();
+
+echo $randomv."<br>";
+echo $randomva."<br>";
+
+
+?>
