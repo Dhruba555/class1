@@ -1,0 +1,62 @@
+<?php
+$f_name ="Dhruba";
+$l_name = "Bhattacharjee";
+$full_name = $f_name." ".$l_name;
+
+/* string and reverse string
+
+echo $full_name."<br>";
+echo strrev($full_name)."<br>";
+echo $full_name."<br>";
+*/
+
+
+# echo strlen($full_name); (string length)
+
+
+/* Operator
+
+$num1=10;
+$num2=20;
+echo $num1+$num2."<br>";
+echo $num1-$num2."<br>";
+echo $num1*$num2."<br>";
+echo $num1/$num2."<br>";
+echo $num1**2;
+echo "<br>";
+*/
+
+#Comparison Operator(<,>,<=,>=,==,!=).....When condition is false browser will show no output.
+/*
+$num1= 100;
+$num2=20;
+$username = "androbd";
+
+echo $num1>$num2 ,"<br>";
+echo $num2<$num1 ,"<br>";
+
+if ($username=='Androbd')
+{
+    echo "Login Successful.";
+}
+else{
+    echo "Invalid username.";
+}
+*/
+
+/*
+$mywallet=64.49;
+echo round($mywallet)."<br>";
+echo ceil($mywallet)."<br>";
+
+$mybalance= -6.7;
+echo abs($mybalance)."<br>";
+*/
+
+#$randomvalue=rand(1,7);
+$randomvalue=rand();
+
+echo $randomvalue;
+
+
+?>
